@@ -1,0 +1,43 @@
+
+.homepage {
+    animation: text-shadow 1.5s ease-in-out infinite;
+    font-size: 5em;
+    font-weight: 900;
+    line-height: 1;
+  font: 160px 'Raleway', comic sans ms;
+  text-align: center;
+}
+
+.homepage:hover {
+    animation-play-state: paused;
+}
+
+
+
+#ortala{
+	position:fixed;left:0;right:0;top:0;bottom:0;display:inline-block;margin:auto;width:200px;height:200px;}
+section{position:relative;}
+section div{position:absolute;padding:50px; border:2px dashed  red;border-radius:100%;display:inline-block;  animation-name: rotate;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;}
+
+@-webkit-keyframes rotate {  
+  from {    transform: rotate(0deg);  }
+    to {     transform: rotate(360deg);  }
+}
+@-moz-keyframes rotate {  from {    transform: rotate(0deg);  }
+  to {     transform: rotate(360deg);  }
+}
+@-o-keyframes rotate {  from {    transform: rotate(0deg);  }
+  to {     transform: rotate(360deg);  }
+}
+/*Rotate Left*/@-webkit-keyframes rotateleft {  from {    transform: rotate(0deg);  }
+  to {     transform: rotate(-360deg);  }
+}
+@-moz-keyframes rotateleft {  from {    transform: rotate(0deg);  }
+  to {     transform: rotate(-360deg);  }
+}
+@-o-keyframes rotateleft {  from {    transform: rotate(0deg);  }
+  to {     transform: rotate(-360deg);  }
+}

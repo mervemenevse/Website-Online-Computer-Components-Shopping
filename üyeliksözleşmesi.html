@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+
+<link href="image/favicon.png" rel="icon" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<!-- CSS Part Start-->
+<link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
+<link rel="stylesheet" type="text/css" href="css/slideshow.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="css/colorbox.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="css/carousel.css" media="screen" />
+<!-- CSS Part End-->
+<!-- JS Part Start-->
+<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>
+<script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
+<script type="text/javascript" src="js/colorbox/jquery.colorbox-min.js"></script>
+<script type="text/javascript" src="js/tabs.js"></script>
+<script type="text/javascript" src="js/jquery.easing-1.3.min.js"></script>
+<script type="text/javascript" src="js/cloud_zoom.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+<script type="text/javascript" src="js/jquery.dcjqaccordion.js"></script>
+<!-- JS Part End-->
+</head>
+<body>
+<div class="main-wrapper">
+  <!-- Header Parts Start-->
+  <div id="header">
+    <!-- Top Right part Links-->
+    <div id="welcome">
+        <div class="links">Hesabım
+        <ul>
+          <li><a href="login.html">Hesabım</a></li>
+          <li><a href="#" id="wishlist-total">Sipariş</a></li>
+          <li><a href="cart.html">Sepetim</a></li>
+          <li><a href="checkout.html">Çıkış</a></li>
+        </ul>
+        </div>
+      <a href="login.html">Üye girişi</a> <a href="register.html">Hesap oluştur</a> </div>
+    <div id="logo"><a href="index-right-column.html"><img src="image/logo.png" title="Quantum Computer" alt="Quantum Computer" /></a></div>
+    <div id="search">
+      <div class="button-search"></div>
+      <input type="text" value="" placeholder="" id="filter_name" name="search" onclick="window.location.href='waitingpage.html'">
+    </div>
+    <!--Mini Cart Start-->
+    <div id="cart">
+      <div class="heading">
+        <h4><img width="32" height="32" alt="small-cart-icon" src="image/cart-bg.png"></h4>
+        <a><span id="cart-total">0 ürün - 0.00TL</span></a></div>
+      <div class="content">
+        <div class="mini-cart-info">
+          <table>
+            <tbody>
+              <tr>
+                 <td class="image"><a href="product.html"><img title="Dell anakart" alt="Dell anakart" width="43" height="43" src="image/product/dell anakart.jpg"></a></td>
+                <td class="name"><a href="product.html">Dell E6320 Anakart</a></td>
+                <td class="quantity">x&nbsp;2</td>
+                <td class="total">700 tl</td>
+                <td class="remove"><img title="Remove" alt="Remove" src="image/remove-small.png"></td>
+              </tr>
+              <tr>
+                <td class="image"><a href="product.html"><img title="Eyewear Eyeglasses" alt="Eyewear Eyeglasses" width="43" height="43" src="image/product/apple_cinema_30-60x60.jpg"></a></td>
+                <td class="name"><a href="product.html"></a></td>
+                <td class="quantity">x&nbsp;1</td>
+                <td class="total">1500 tl</td>
+                <td class="remove"><img title="Remove" alt="Remove" src="image/remove-small.png"></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="mini-cart-total">
+          <table>
+            <tbody>
+              <tr>
+                <td class="right"><b>ürün kdv hariç toplamı:</b></td>
+                <td class="right">2040 tl</td>
+              </tr>
+              <tr>
+                <td class="right"><b>Kargo tutarı:</b></td>
+                <td class="right">11.99 tl</td>
+              </tr>
+              <tr>
+                <td class="right"><b>Toplam:</b></td>
+                <td class="right">2211.99 tl</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="checkout"><a href="cart.html" class="button">Sepete dön</a> &nbsp; <a href="checkout.html" class="button">Alışveriş tamamla</a></div>
+      </div>
+    </div>
+    <!--Mini Cart End-->
+  </div>
+  <!--Top Navigation Start-->
+  <div id="menu"><span>Menu</span>
+    <ul>
+      <li class="home"><a  title="Home" href="index.html"><span>Ana Sayfa</span></a></li>
+     <li><a href="bilgisayarbileşenler.html">BİLGİSAYAR BİLEŞENLERİ</a>
+        <div>
+          <ul>
+            <li><a href="bilgisayarbileşenler.html">ANAKART</a></li>
+            <li><a href="bilgisayarbileşenler.html">İŞLEMCİ</a></li>
+            <li><a href="bilgisayarbileşenler.html">HARDDİSK</a></li>
+			<li><a href="bilgisayarbileşenler.html">RAM</a></li>
+			<li><a href="bilgisayarbileşenler.html">EKRAN KART</a></li>
+			<li><a href="bilgisayarbileşenler.html">SOĞUTUCU</a></li>
+			<li><a href="bilgisayarbileşenler.html">OPTİK SÜRÜCÜ</a></li>
+			<li><a href="bilgisayarbileşenler.html">BİLGİSAYAR KASASI</a></li>
+          </ul>
+        </div>
+      </li>
+      <li><a href="ikincielürünler.html">İKİNCİ EL ÜRÜNLER</a> <div><ul>
+	  <li><a href="ikincielürünler.html">LAPTOP</a></li>
+	  <li><a href="ikincielürünler.html">BİLGİSAYAR BİLEŞENLERİ</a></li>
+						</ul></div>
+	  </li>
+	  
+      <li><a href="çevrebirimler.html">ÇEVRE BİRİMLER</a>
+        <div>
+          <ul>
+            <li><a href="çevrebirimler.html">MOUSE&KLAVYE</a></li>
+            <li><a href="çevrebirimler.html">KULAKLIK</a></li>
+            <li><a href="çevrebirimler.html">KULAKLIK</a></li>
+			<li><a href="çevrebirimler.html">ÇEVİRİCİLER</a></li>
+			<li><a href="çevrebirimler.html">KABLOLAR</a></li>
+          </ul>
+        </div>
+      </li>
+      <li><a href="outletürünler.html">OUTLET ÜRÜNLER</a>
+      </li>
+	   <li><a href="contact-us.html">İLETİŞİM</a></li>
+    </ul>
+	
+  </div>
+  <!--Top Navigation Start-->
+  <div id="container">
+    <!--Left Part-->
+    <div id="column-left">
+      <!--Categories Part Start-->
+      <div class="box">
+        <div class="box-heading">KATEGORİLER</div>
+        <div class="box-content box-category">
+          <ul id="custom_accordion">
+            <li class="category25"><a class="cuuchild " href="bilgisayarbileşenler.html">BİLGİSAYAR BİLEŞENLERİ</a> <span class="down"></span>
+              <ul>
+                <li class="category26"><a class="nochild " href="bilgisayarbileşenler.html">ANAKART</a></li>
+                <li class="category27"><a class="nochild " href="bilgisayarbileşenler.html">İŞLEMCİ</a></li>
+			    <li class="category28"><a class="nochild " href="bilgisayarbileşenler.html">HARDDİSK</a></li>
+			    <li class="category29"><a class="nochild " href="bilgisayarbileşenler.html">RAM</a></li>
+				<li class="category30"><a class="nochild " href="bilgisayarbileşenler.html">EKRAN KARTI</a></li>
+				<li class="category32"><a class="nochild " href="bilgisayarbileşenler.html">OPTİK SÜRÜCÜ</a></li>
+                <li class="category33"><a class="nochild " href="bilgisayarbileşenler.html">BİLGİSAYAR KASASI</a> 
+                </li>
+              </ul>
+            </li>
+            <li class="category34"><a class="cuuchild " href="ikincielürünler.html">İKİNCİ EL ÜRÜNLER</a><span class="down"></span>
+			<ul>
+			 <li><a href="ikincielürünler.html">LAPTOP</a></li>
+	  <li><a href="ikincielürünler.html">BİLGİSAYAR BİLEŞENLERİ</a></li>   <span class="down"></span>
+			   </li>
+              </ul>
+			</li>
+            <li class="category37"><a class="cuuchild " href="çevrebirimler.html">ÇEVRE BİRİMLER</a> <span class="down"></span>
+              <ul>
+                <li class="category38"><a class="nochild " href="çevrebirimler.html">MOUSE&KLAVYE</a></li>
+                <li class="category39"><a class="nochild " href="çevrebirimler.html">KULAKLIK</a></li>
+				 <li class="category40"><a class="nochild " href="çevrebirimler.html">ŞARJ ALETLERİ</a></li>
+                <li class="category41"><a class="nochild " href="çevrebirimler.html">KABLOLAR</a></li>
+              </ul>
+            </li>
+          <li class="category42"><a class="nochild " href="outletürünler.html">OUTLET ÜRÜNLER</a></li>
+          </ul>
+        </div>
+      </div>
+      <!--Categories Part End-->
+      <!--Latest Product Start-->
+      <div class="box">
+          <div class="box-heading">SON EKLENENLER</div>
+        <div class="box-content">
+          <div class="box-product">
+            <div>
+              <div class="image"><a href="dell anakart.html"><img src="image/product/dell anakart.jpg" alt="Dell anakart" /></a></div>
+              <div class="name"><a href="dell anakrt.html">Dell E6320 Anakart</a></div>
+              <div class="price"> 350 tl </div>
+              <div class="rating"><img src="image/stars-3.png" alt="Based on 1 reviews." /></div>
+            </div>
+            <div>
+              <div class="image"><a href="product.html"><img src="image/product/ipod_classic_1-60x60.jpg" alt="iPad Classic" /></a></div>
+              <div class="name"><a href="product.html">iPad Classic</a></div>
+              <div class="price"> 1500 tl </div>
+              <div class="rating"><img src="image/stars-0.png" alt="Based on 0 reviews." /></div>
+            </div>
+            <div>
+              <div class="image"><a href="islemci.html"><img src="image/product/işlemci i5-60x60.jpg" alt="İ5 İşlemci" /></a></div>
+              <div class="name"><a href="islemci.html">Acer Aspire Intel Core i5 </a></div>
+              <div class="price"> 200 tl </div>
+              <div class="rating"><img src="image/stars-3.png" alt="Based on 3 reviews." /></div>
+            </div>
+            <div>
+              <div class="image"><a href="product.html"><img src="image/product/8gb ram-60x60.jpg" alt="8gb ram" /></a></div>
+              <div class="name"><a href="product.html">KINGSTON 8GB DDR4 Notebook Ram</a></div>
+              <div class="price"> 300 tl </div>
+              <div class="rating"><img src="image/stars-0.png" alt="Based on 0 reviews." /></div>
+            </div>
+            <div>
+              <div class="image"><a href="product.html"><img src="image/product/toshiba laptop-60x60.jpg" alt="Toshiba Laptop" /></a></div>
+              <div class="name"><a href="product.html">Toshiba Laptop</a></div>
+              <div class="price"> 6,000 tl</div>
+              <div class="rating"><img src="image/stars-5.png" alt="Based on 5 reviews." /></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Latest Product End-->
+      <!--Specials Product Start-->
+      <div class="box">
+        <div class="box-heading">İndirimli Ürünler</div>
+        <div class="box-content">
+          <div class="box-product">
+            <div>
+              <div class="image"><a href="product.html"><img src="image/product/apple_cinema_30-60x60.jpg" alt="Apple Tablet Retina" /></a></div>
+              <div class="name"><a href="product.html">Apple Tablet Retina</a></div>
+              <div class="price"> <span class="price-old">5000 tl</span> <span class="price-new">3500 tl</span> </div>
+              <div class="rating"><img src="image/stars-0.png" alt="Based on 0 reviews." /></div>
+              <div class="cart">
+                <input type="button" value="Sepete Ekle" onClick="Sepete Ekle('42');" class="button" />
+              </div>
+            </div>
+            <div>
+              <div class="image"><a href="product.html"><img src="image/product/canon_eos_5d_1-60x60.jpg" alt="Canon Digital Camera" /></a></div>
+              <div class="name"><a href="product.html">Canon Digital Camera</a></div>
+              <div class="price"> <span class="price-old">1200 tl</span> <span class="price-new">900 tl</span> </div>
+              <div class="rating"><img src="image/stars-0.png" alt="Based on 0 reviews." /></div>
+              <div class="cart">
+                <input type="button" value="Sepete Ekle" onClick="Sepete Ekle('30');" class="button" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Specials Product End-->
+    </div>
+    <!--Left End-->
+    <!--Middle Part Start-->
+    <div id="content">
+      <!--Breadcrumb Part Start-->
+      <div class="breadcrumb"><a href="index.html">Ana Sayfa</a> » <a href="sitemap.html">Üyelik Sözleşmesi</a></div>
+      <!--Breadcrumb Part End-->
+      <h1>Üyelik Sözleşmesi</h1>
+      <div class="sitemap-info">
+        <div class="left">
+          <ul class="sitemap">
+           
+			   <li><a href="category.html">Site Kullanım Şartları - Üyelik Sözleşmesi İçerik Örneği
+Bu sayfada yer alan sözleşme tamamen örnek olması için eklenmiştir. Maddeler sektöre göre değişiklik gösterilebilir.Sözleşme içeriğini firmanıza göre düzenleyerek sitenize eklemelisiniz. Sözleşme içeriğinden site sahibi sorumludur, Firmamızın örnek sözleşmelerin eklenmesinden kaynaklı herhangi bir yükümlülüğü bulunmamaktadır.
+Sözleşmeleri  İçerik Yönetimi  >>  Sayfalar bölümünden düzenleyebilirsiniz. Sayfalar bölümü ile ilgili hazırladığımız yardım sayfası için buraya tıklayınız.
+SİTE KULLANIM ŞARTLARI
+Lütfen sitemizi kullanmadan evvel bu ‘site kullanım şartları’nı dikkatlice okuyunuz. 
+Bu alışveriş sitesini kullanan ve alışveriş yapan müşterilerimiz aşağıdaki şartları kabul etmiş varsayılmaktadır:
+Sitemizdeki web sayfaları ve ona bağlı tüm sayfalar (‘site’) ……………………… adresindeki ……………………………….firmasının (Firma) malıdır ve onun tarafından işletilir. Sizler (‘Kullanıcı’) sitede sunulan tüm hizmetleri kullanırken aşağıdaki şartlara tabi olduğunuzu, sitedeki hizmetten yararlanmakla ve kullanmaya devam etmekle; Bağlı olduğunuz yasalara göre sözleşme imzalama hakkına, yetkisine ve hukuki ehliyetine sahip ve 18 yaşın üzerinde olduğunuzu, bu sözleşmeyi okuduğunuzu, anladığınızı ve sözleşmede yazan şartlarla bağlı olduğunuzu kabul etmiş sayılırsınız. 
+İşbu sözleşme taraflara sözleşme konusu site ile ilgili hak ve yükümlülükler yükler ve taraflar işbu sözleşmeyi kabul ettiklerinde bahsi geçen hak ve yükümlülükleri eksiksiz, doğru, zamanında, işbu sözleşmede talep edilen şartlar dâhilinde yerine getireceklerini beyan ederler.
+
+1. SORUMLULUKLAR
+a.Firma, fiyatlar ve sunulan ürün ve hizmetler üzerinde değişiklik yapma hakkını her zaman saklı tutar. 
+b.Firma, üyenin sözleşme konusu hizmetlerden, teknik arızalar dışında yararlandırılacağını kabul ve taahhüt eder.
+c.Kullanıcı, sitenin kullanımında tersine mühendislik yapmayacağını ya da bunların kaynak kodunu bulmak veya elde etmek amacına yönelik herhangi bir başka işlemde bulunmayacağını aksi halde ve 3. Kişiler nezdinde doğacak zararlardan sorumlu olacağını, hakkında hukuki ve cezai işlem yapılacağını peşinen kabul eder. 
+d.Kullanıcı, site içindeki faaliyetlerinde, sitenin herhangi bir bölümünde veya iletişimlerinde genel ahlaka ve adaba aykırı, kanuna aykırı, 3. Kişilerin haklarını zedeleyen, yanıltıcı, saldırgan, müstehcen, pornografik, kişilik haklarını zedeleyen, telif haklarına aykırı, yasa dışı faaliyetleri teşvik eden içerikler üretmeyeceğini, paylaşmayacağını kabul eder. Aksi halde oluşacak zarardan tamamen kendisi sorumludur ve bu durumda ‘Site’ yetkilileri, bu tür hesapları askıya alabilir, sona erdirebilir, yasal süreç başlatma hakkını saklı tutar. Bu sebeple yargı mercilerinden etkinlik veya kullanıcı hesapları ile ilgili bilgi talepleri gelirse paylaşma hakkını saklı tutar.
+e.Sitenin üyelerinin birbirleri veya üçüncü şahıslarla olan ilişkileri kendi sorumluluğundadır. 
+2.  Fikri Mülkiyet Hakları
+
+2.1. İşbu Site’de yer alan ünvan, işletme adı, marka, patent, logo, tasarım, bilgi ve yöntem gibi tescilli veya tescilsiz tüm fikri mülkiyet hakları site işleteni ve sahibi firmaya veya belirtilen ilgilisine ait olup, ulusal ve uluslararası hukukun koruması altındadır. İşbu Site’nin ziyaret edilmesi veya bu Site’deki hizmetlerden yararlanılması söz konusu fikri mülkiyet hakları konusunda hiçbir hak vermez.
+2.2. Site’de yer alan bilgiler hiçbir şekilde çoğaltılamaz, yayınlanamaz, kopyalanamaz, sunulamaz ve/veya aktarılamaz. Site’nin bütünü veya bir kısmı diğer bir internet sitesinde izinsiz olarak kullanılamaz. 
+3. Gizli Bilgi
+3.1. Firma, site üzerinden kullanıcıların ilettiği kişisel bilgileri 3. Kişilere açıklamayacaktır. Bu kişisel bilgiler; kişi adı-soyadı, adresi, telefon numarası, cep telefonu, e-posta adresi gibi Kullanıcı’yı tanımlamaya yönelik her türlü diğer bilgiyi içermekte olup, kısaca ‘Gizli Bilgiler’ olarak anılacaktır.
+
+
+</a> </li>
+        </div>
+		
+
+        <div class="right">
+          <ul class="sitemap">
+		
+                <li><a href="category.html">
+
+
+3.2. Kullanıcı, sadece tanıtım, reklam, kampanya, promosyon, duyuru vb. pazarlama faaliyetleri kapsamında kullanılması ile sınırlı olmak üzere, Site’nin sahibi olan firmanın kendisine ait iletişim, portföy durumu ve demografik bilgilerini iştirakleri ya da bağlı bulunduğu grup şirketleri ile paylaşmasına muvafakat ettiğini kabul ve beyan eder. Bu kişisel bilgiler firma bünyesinde müşteri profili belirlemek, müşteri profiline uygun promosyon ve kampanyalar sunmak ve istatistiksel çalışmalar yapmak amacıyla kullanılabilecektir.
+
+3.3. Gizli Bilgiler, ancak resmi makamlarca usulü dairesinde bu bilgilerin talep edilmesi halinde ve yürürlükteki emredici mevzuat hükümleri gereğince resmi makamlara açıklama yapılmasının zorunlu olduğu durumlarda resmi makamlara açıklanabilecektir.
+
+4. Garanti Vermeme: İŞBU SÖZLEŞME MADDESİ UYGULANABİLİR KANUNUN İZİN VERDİĞİ AZAMİ ÖLÇÜDE GEÇERLİ OLACAKTIR. FİRMA TARAFINDAN SUNULAN HİZMETLER "OLDUĞU GİBİ” VE "MÜMKÜN OLDUĞU” TEMELDE SUNULMAKTA VE PAZARLANABİLİRLİK, BELİRLİ BİR AMACA UYGUNLUK VEYA İHLAL ETMEME KONUSUNDA TÜM ZIMNİ GARANTİLER DE DÂHİL OLMAK ÜZERE HİZMETLER VEYA UYGULAMA İLE İLGİLİ OLARAK (BUNLARDA YER ALAN TÜM BİLGİLER DÂHİL) SARİH VEYA ZIMNİ, KANUNİ VEYA BAŞKA BİR NİTELİKTE HİÇBİR GARANTİDE BULUNMAMAKTADIR. 
+
+5. Kayıt ve Güvenlik 
+Kullanıcı, doğru, eksiksiz ve güncel kayıt bilgilerini vermek zorundadır. Aksi halde bu Sözleşme ihlal edilmiş sayılacak ve Kullanıcı bilgilendirilmeksizin hesap kapatılabilecektir.
+Kullanıcı, site ve üçüncü taraf sitelerdeki şifre ve hesap güvenliğinden kendisi sorumludur. Aksi halde oluşacak veri kayıplarından ve güvenlik ihlallerinden veya donanım ve cihazların zarar görmesinden Firma sorumlu tutulamaz.
+
+6. Mücbir Sebep
+
+Tarafların kontrolünde olmayan; tabii afetler, yangın, patlamalar, iç savaşlar, savaşlar, ayaklanmalar, halk hareketleri, seferberlik ilanı, grev, lokavt ve salgın hastalıklar, altyapı ve internet arızaları, elektrik kesintisi gibi sebeplerden (aşağıda birlikte "Mücbir Sebep” olarak anılacaktır.) dolayı sözleşmeden doğan yükümlülükler taraflarca ifa edilemez hale gelirse, taraflar bundan sorumlu değildir. Bu sürede Taraflar’ın işbu Sözleşme’den doğan hak ve yükümlülükleri askıya alınır. 
+
+7. Sözleşmenin Bütünlüğü ve Uygulanabilirlik
+
+İşbu sözleşme şartlarından biri, kısmen veya tamamen geçersiz hale gelirse, sözleşmenin geri kalanı geçerliliğini korumaya devam eder.
+
+8. Sözleşmede Yapılacak Değişiklikler
+
+Firma, dilediği zaman sitede sunulan hizmetleri ve işbu sözleşme şartlarını kısmen veya tamamen değiştirebilir. Değişiklikler sitede yayınlandığı tarihten itibaren geçerli olacaktır. Değişiklikleri takip etmek Kullanıcı’nın sorumluluğundadır. Kullanıcı, sunulan hizmetlerden yararlanmaya devam etmekle bu değişiklikleri de kabul etmiş sayılır.
+
+9. Tebligat
+İşbu Sözleşme ile ilgili taraflara gönderilecek olan tüm bildirimler, Firma’nın bilinen e.posta adresi ve kullanıcının üyelik formunda belirttiği e.posta adresi vasıtasıyla yapılacaktır. Kullanıcı, üye olurken belirttiği adresin geçerli tebligat adresi olduğunu, değişmesi durumunda 5 gün içinde yazılı olarak diğer tarafa bildireceğini, aksi halde bu adrese yapılacak tebligatların geçerli sayılacağını kabul eder.
+
+10. Delil Sözleşmesi
+Taraflar arasında işbu sözleşme ile ilgili işlemler için çıkabilecek her türlü uyuşmazlıklarda Taraflar’ın defter, kayıt ve belgeleri ile ve bilgisayar kayıtları ve faks kayıtları 6100 sayılı Hukuk Muhakemeleri Kanunu uyarınca delil olarak kabul edilecek olup, kullanıcı bu kayıtlara itiraz etmeyeceğini kabul eder.
+
+11. Uyuşmazlıkların Çözümü
+İşbu Sözleşme’nin uygulanmasından veya yorumlanmasından doğacak her türlü uyuşmazlığın çözümünde İstanbul (Merkez) Adliyesi Mahkemeleri ve İcra Daireleri yetkilidir.
+</a> </li>
+   </ul>
+    </div>
+  </div>
+</div>
+<!--Footer Part Start-->
+<div id="footer">
+ <div class="column">
+    <h3>Kurumsal</h3>
+    <ul>
+      <li><a href="about-us.html">Hakkımızda</a></li>
+      <li><a href="about-us.html">Hesap Numaralarımız</a></li>
+      <li><a href="about-us.html">Ürün arıza ve iade formu</a></li>
+      <li><a href="elements.html">Anlaşmalı Kargolar</a></li>
+	  <li><a href="elements.html">Kurumsal Çözümler</a></li>
+    </ul>
+  </div>
+  <div class="column">
+    <h3>Güvenli Alışveriş</h3>
+    <ul>
+      
+      <li><a href="gizlilikpolitikası.html">Gizlilik Politikası</a></li>
+      <li><a href="üyeliksözleşmesi.html">Üyelik Sözleşmesi</a></li>
+	  <li><a href="sitemap.html">Kolay İade ve Değişim</a></li>
+	   <li><a href="sitemap.html">E-Arşiv Fatura Sorgulama</a></li>
+    </ul>
+  </div>
+  <div class="column">
+    <h3>Kategoriler</h3>
+    <ul>
+       <li><a href="bilgisayarbileşenler.html">Bilgisayar Bileşenleri</a></li>
+      <li><a href="ikincielürünler.html">İkinci El Ürünler</a></li>
+      <li><a href="çevrebirimler.html">Çevre Birimler</a></li>
+      <li><a href="outlet.html">Outlet Ürünler</a>
+    </ul>
+  </div>
+  <div class="column">
+    <h3>Hesabım</h3>
+    <ul>
+      <li><a href="login.html">Hesabım</a></li>
+      <li><a href="#">Yardım</a></li>
+	  <li><a href="elements.html">Kargo takip</a></li>
+      <li><a href="#">Mesaj yaz</a></li>
+	  <li><a href="contact-us.html">Bize Ulaşın</a></li>
+    </ul>
+  </div>
+  <div class="contact">
+    <ul>
+      <li class="address">BUCA İZMİR,TÜRKİYE.</li>
+      <li class="mobile">191 191 91 19</li>
+      <li class="email"><a href="mailto:info@demo.com">info@demo.com</a></li>
+      <li class="fax">191 191 91 19</li>
+    </ul>
+
+  </div>
+  <div class="social"> <a href="http://facebook.com/ " target="_blank"><img src="image/facebook.png" alt="Facebook" title="Facebook"></a> <a href="https://twitter.com/" target="_blank"><img src="image/twitter.png" alt="Twitter" title="Twitter"></a> <a href="https://plus.google.com/#" target="_blank"><img src="image/googleplus.png" alt="Google+" title="Google+"></a> <a href="http://pinterest.com/#" target="_blank"><img src="image/pinterest.png" alt="Pinterest" title="Pinterest"></a> <a href="#" target="_blank"><img src="image/rss.png" alt="RSS" title="RSS"></a> <a href="http://www.vimeo.com/#" target="_blank"><img src="image/vimeo.png" alt="Vimeo" title="Vimeo"></a> <a href="http://www.flickr.com/photos/#" target="_blank"><img src="image/flickr.png" alt="flickr" title="Flickr"></a> <a href="http://www.youtube.com/#" target="_blank"><img src="image/youtube.png" alt="YouTube" title="YouTube"></a> <a href="skype:#?call" target="_blank"><img src="image/skype.png" alt="skype" title="Skype"></a> <a href="#" target="_blank"><img src="image/blogger.png" alt="Blogger" title="Blogger"></a> </div>
+  <div class="clear"></div>
+  <div id="powered">QUANTUM COMPUTER <a href="index.html">www.quantumcomputer.com</a> &copy; 2020 &nbsp;|&nbsp;  Kredi kartı bilgileriniz 256bit SSL sertifikası ile korunmaktadır. <a target="_blank" href="http://index.html"></a>
+    <div class="payments_types"> <img src="image/payment_paypal.png" alt="paypal" title="PayPal"> <img src="image/payment_american.png" alt="american-express" title="American Express"> <img src="image/payment_2checkout.png" alt="2checkout" title="2checkout"> <img src="image/payment_maestro.png" alt="maestro" title="Maestro"> <img src="image/payment_discover.png" alt="discover" title="Discover"> <img src="image/payment_mastercard.png" alt="mastercard" title="MasterCard"> <img src="image/payment_visa.png" alt="visa" title="Visa"> <img src="image/payment_sagepay.png" alt="sagepay" title="sagepay"> <img src="image/payment_moneybookers.png" alt="moneybookers" title="Moneybookers"> </div>
+  </div>
+</div>
+<!--Footer Part End-->
+</body>
+</html>
